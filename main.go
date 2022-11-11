@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"io/fs"
 	"path/filepath"
+
+	"github.com/go-git/go-git/v5"
 )
 
 var files = []string{}
@@ -36,4 +38,6 @@ func main() {
 
 	currentTree, err := commit.Tree()
 	CheckIfError(err)
+
+	git.FileStatus
 }
