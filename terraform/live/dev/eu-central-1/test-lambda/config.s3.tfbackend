@@ -1,0 +1,5 @@
+bucket         = "meinestadt-terraform-state-dev"
+key            = "performance-data/eu-central-1/test-lambda/terraform.tfstate"
+region         = "eu-central-1"
+dynamodb_table = "meinestadt-terraform-locks"
+encrypt        = true
